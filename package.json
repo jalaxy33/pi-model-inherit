@@ -1,0 +1,40 @@
+{
+  "name": "pi-model-inherit",
+  "version": "0.1.0",
+  "description": "pi extension that lets providers and models inherit shared configuration instead of repeating it",
+  "author": "jalaxy33",
+  "type": "module",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalaxy33/pi-model-inherit.git"
+  },
+  "homepage": "https://github.com/jalaxy33/pi-model-inherit#readme",
+  "bugs": {
+    "url": "https://github.com/jalaxy33/pi-model-inherit/issues"
+  },
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/model-inherit/index.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --no-warnings --test tests/*.test.ts"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "files": [
+    "extensions",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ]
+}
