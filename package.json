@@ -1,6 +1,6 @@
 {
   "name": "pi-model-inherit",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "pi extension that lets providers and models inherit shared configuration instead of repeating it",
   "author": "jalaxy33",
   "type": "module",
